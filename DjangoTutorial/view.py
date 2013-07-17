@@ -28,3 +28,6 @@ def display_meta(request):
     meta = request.META.items()
     meta.sort()
     return render_to_response('display_meta.html', {'meta' : meta})
+
+def mobile(request):
+    return render_to_response('mobile.html')

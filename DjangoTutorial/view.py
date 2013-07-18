@@ -31,3 +31,10 @@ def display_meta(request):
 
 def mobile(request):
     return render_to_response('mobile.html')
+
+# named group practice.
+def year_archive(request, year, month):
+    return HttpResponse('NOT group year = %s, month = %s' % (year, month))
+
+def month_archive(request, year, month):
+    return HttpResponse('group year = %s, month = %s' % (year, month))

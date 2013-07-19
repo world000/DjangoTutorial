@@ -30,7 +30,7 @@ def display_meta(request):
     return render_to_response('display_meta.html', {'meta' : meta})
 
 def mobile(request):
-    return render_to_response('mobile.html')
+    return render_to_response('mobile.html', {'data' : 'hello world'})
 
 # named group practice.
 def year_archive(request, year, month):

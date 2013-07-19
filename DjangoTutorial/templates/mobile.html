@@ -1,8 +1,13 @@
+{{ load poll_extras }}
+
 <html>
 <head>
     <title>Mobile</title>
 </head>
 <body>
+	<p> {{ data|safe }} </p>
+	<p> {{ date|default:"3 &lt;b&gt; 2" }} </p>
+	<p> {{ data|cut: ' ' }} </p>
     <table border = '1' cellspacing=0 style="border-collapse: collapse; border:1px dotted #cc0000">
     <tr><th>Header</th><td>column</td></tr>
     <tr><th>Header</th><td>column</td></tr>

@@ -1,8 +1,12 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+
 '''
 Created on 2013年7月19日
 
 @author: Alan
 '''
+
 from django.conf import settings
 from django.template import TemplateDoesNotExist
 import zipfile

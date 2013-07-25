@@ -121,6 +121,10 @@ TEMPLATE_DIRS = (
     os.path.join(os.path.dirname(__file__), 'templates').replace('\\','/'),
 )
 
+TEMPLATE_ZIP_FILES = (
+    
+)
+
 INSTALLED_APPS = (
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -134,6 +138,7 @@ INSTALLED_APPS = (
 #     'django.contrib.admindocs',
     'books',
     'contact',
+    'blog',
 )
 
 # A sample logging configuration. The only tangible logging
